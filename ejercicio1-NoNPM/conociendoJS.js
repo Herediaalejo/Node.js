@@ -8,7 +8,7 @@ const registrarEstudiantes = () => {
     for(let i = 0; i<cantidadEstudiantes; i++){
         let nombreEstudiante = prompt(`Ingrese el nombre del estudiante ${i+1}: `)
 
-        let edad = prompt(`Ingrese la edad del estudiante ${i}: `)
+        let edad = prompt(`Ingrese la edad del estudiante ${i+1}: `)
 
         let estudiante = {
             nombre: nombreEstudiante,
